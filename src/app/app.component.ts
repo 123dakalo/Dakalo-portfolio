@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio-project';
+
+  isNavOpen = false;
+
+  toggleNav() {
+    this.isNavOpen = !this.isNavOpen;
+  }
 }
